@@ -1,7 +1,12 @@
 package com.shantesh.learning.spring_boot_jdbc_jpa_hibernate.pojo;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
 	
+	@Id
 	private int id;
 	private String name;
 	private String author;
